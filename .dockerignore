@@ -1,0 +1,6 @@
+pictures/
+mappings/
+Dockerfile
+docker-compose.yml
+.env
+node_modules/

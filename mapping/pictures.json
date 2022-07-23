@@ -1,0 +1,14 @@
+{
+    "apple": {
+        "name": "Apple",
+        "file": "apple.png"
+    },
+    "axe": {
+        "name": "Axe",
+        "file": "axe.png"
+    },
+    "fork": {
+        "name": "Fork",
+        "file": "fork.png"
+    }
+}

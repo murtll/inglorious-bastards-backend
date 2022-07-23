@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  backend:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: ig-backend
+    restart: always
+    ports:
+      - ${EXPOSED_PORT}:${BACKEND_PORT}
+    environment:
+      - PORT=${BACKEND_PORT}
+    volumes:
+      - ./pictures/:/app/pictures/:ro
+      - ./mapping/:/app/mapping/:ro
